@@ -1,0 +1,38 @@
+==============================================
+9 EXPERIMENTS started at 2015-02-24 17:29:31
+==============================================
+1. RUN_FIXED(1, FIXED_FILE, 1024)
+  Throughput         = 130945.6000000000 bytes/sec
+  Avg. Response Time = 0.0721349100 secs
+
+2. RUN_FIXED(2, FIXED_FILE, 1024)
+  Throughput         = 260857.5000000000 bytes/sec
+  Avg. Response Time = 0.0360837300 secs
+
+3. RUN_FIXED(4, FIXED_FILE, 1024)
+  Throughput         = 309207.9000000000 bytes/sec
+  Avg. Response Time = 0.0304696600 secs
+
+4. RUN_FIXED(8, FIXED_FILE, 1024)
+  Throughput         = 309207.9000000000 bytes/sec
+  Avg. Response Time = 0.0304696600 secs
+
+5. RUN_FIXED(16, FIXED_FILE, 1024)
+  Throughput         = 267477.7000000000 bytes/sec
+  Avg. Response Time = 0.0347614300 secs
+
+6. RUN_FIXED(32, FIXED_FILE, 1024)
+  Throughput         = 293672.0000000000 bytes/sec
+  Avg. Response Time = 0.0323196100 secs
+
+7. RUN_FIXED(64, FIXED_FILE, 1024)
+  Throughput         = 293672.0000000000 bytes/sec
+  Avg. Response Time = 0.0323196100 secs
+
+8. RUN_FIXED(128, FIXED_FILE, 1024)
+  Throughput         = 132125.7000000000 bytes/sec
+  Avg. Response Time = 0.0746635000 secs
+
+9. RUN_FIXED(256, FIXED_FILE, 1024)
+  Throughput         = 132125.7000000000 bytes/sec
+  Avg. Response Time = 0.0746635000 secs

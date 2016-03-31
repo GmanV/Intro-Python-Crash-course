@@ -1,0 +1,18 @@
+==============================================
+4 EXPERIMENTS started at 2015-02-24 17:32:56
+==============================================
+1. RUN_FIXED(1, FIXED_FILE, 1024)
+  Throughput         = 130945.6000000000 bytes/sec
+  Avg. Response Time = 0.0721349100 secs
+
+2. RUN_FIXED(4, FIXED_FILE, 1024)
+  Throughput         = 309207.9000000000 bytes/sec
+  Avg. Response Time = 0.0304696600 secs
+
+3. RUN_FIXED(16, FIXED_FILE, 1024)
+  Throughput         = 267477.7000000000 bytes/sec
+  Avg. Response Time = 0.0347614300 secs
+
+4. RUN_FIXED(64, FIXED_FILE, 1024)
+  Throughput         = 293672.0000000000 bytes/sec
+  Avg. Response Time = 0.0323196100 secs

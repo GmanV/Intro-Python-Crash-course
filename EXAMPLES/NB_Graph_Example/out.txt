@@ -1,0 +1,4 @@
+My data: 1234.1
+My data: 2345.1
+My data: 3456.2
+My data: 4567.4

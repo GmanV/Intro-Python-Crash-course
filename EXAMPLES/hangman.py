@@ -9,7 +9,8 @@ with open(WORD_FILE) as wl:
     words = wl.read().split('\n')
 
 mystery_word = random.choice(words)
-guess_word = [ "_" for c in mystery_word ]
+#guess_word = [ "_" for c in mystery_word ]
+guess_word = ["_",] * len(myster_word)
 
 print mystery_word
 
@@ -29,6 +30,7 @@ while wrong_guesses < TOTAL_GUESSES:
     else:
         print "Wrong, try again...\n"
         wrong_guesses += 1
+
     if ''.join(guess_word) == mystery_word:
         print "you found the correct word!"
         break
